@@ -7,7 +7,8 @@
 .fa-fw{text-align:center;width:1.25em}
 .fa-arrow-alt-circle-up:before{content:"\f35b"}
 .fa-calculator:before{content:"\f1ec"}
-.fa-certificate:before{content:"\f0a3"}
+/* Hide green notification badges without changing game state or resource icons. */
+.fa-certificate{display:none!important}
 .fa-check:before{content:"\f00c"}
 .fa-chevron-down:before{content:"\f078"}
 .fa-chevron-right:before{content:"\f054"}
